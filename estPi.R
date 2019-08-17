@@ -12,7 +12,7 @@ estPi <- function(numOfDarts){
   # points(dx[-ix], dy[-ix], col='red', pch=20)
   return(4*(length(ix)/numOfDarts))
 }
-
+# Conflict Comment
 estPi(darts = 1000)
 estPi(darts = 10000)
 # Added some tests for you. Michelle Koop.
