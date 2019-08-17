@@ -16,3 +16,7 @@ estPi <- function(numOfDarts){
   
   return(4*(length(ix)/numOfDarts))
 }
+
+estPi(darts = 1000)
+estPi(darts = 10000)
+# Added some tests for you. Michelle Koop.
